@@ -51,10 +51,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-kotlinOptions {
-    jvmTarget = "17"
-    freeCompilerArgs = ["-Xjdk-release=17"]
-}
+
 allprojects {
     repositories {
         mavenLocal()
