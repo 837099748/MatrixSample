@@ -48,7 +48,6 @@ buildscript {
             changing = true
             exclude group: 'com.android.tools.build', module: 'gradle'
         }
-        #classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.32'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
