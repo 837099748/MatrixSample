@@ -59,6 +59,7 @@ android {
         jvmTarget = '17'
         freeCompilerArgs = ["-Xjdk-release=17"]
     }
+    
     packagingOptions {
         pickFirst 'lib/armeabi-v7a/libc++_shared.so'
         pickFirst 'lib/arm64-v8a/libc++_shared.so'
